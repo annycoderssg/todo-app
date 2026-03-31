@@ -46,7 +46,7 @@ Make sure the following are installed on your machine:
 
 ### 1. Navigate to the app folder
 ```bash
-cd "C:\Users\Anand S\Study\Projects\ToDoApp\app"
+cd "\Projects\ToDoApp\app"
 ```
 
 ### 2. Create a virtual environment
