@@ -181,14 +181,6 @@
   color: var(--color-text);
 }
 
-.btn-icon {
-  padding: var(--space-2);
-  border-radius: var(--radius-sm);
-  font-size: var(--font-size-sm);
-  background: transparent;
-  border: 1px solid transparent;
-}
-
 .btn-edit {
   background: transparent;
   color: var(--color-warning);
@@ -285,17 +277,14 @@
   border-style: dashed;
 }
 
-/* Checkbox */
 .task-checkbox {
   flex-shrink: 0;
   width: 20px;
   height: 20px;
   cursor: pointer;
   accent-color: var(--color-primary);
-  border-radius: 4px;
 }
 
-/* Task body */
 .task-body {
   flex: 1;
   min-width: 0;
@@ -331,12 +320,7 @@
   gap: var(--space-1);
 }
 
-/* Task actions */
-.task-actions {
-  display: flex;
-  gap: var(--space-2);
-  flex-shrink: 0;
-}
+.task-actions { display: flex; gap: var(--space-2); flex-shrink: 0; }
 
 /* ============================================================
    Status Badges
@@ -361,22 +345,13 @@
   display: inline-block;
 }
 
-.badge-pending {
-  background: var(--badge-pending-bg);
-  color: var(--badge-pending-text);
-}
+.badge-pending      { background: var(--badge-pending-bg);  color: var(--badge-pending-text); }
 .badge-pending::before { background: var(--badge-pending-text); }
 
-.badge-in-progress {
-  background: var(--badge-progress-bg);
-  color: var(--badge-progress-text);
-}
+.badge-in-progress  { background: var(--badge-progress-bg); color: var(--badge-progress-text); }
 .badge-in-progress::before { background: var(--badge-progress-text); }
 
-.badge-completed {
-  background: var(--badge-done-bg);
-  color: var(--badge-done-text);
-}
+.badge-completed    { background: var(--badge-done-bg);     color: var(--badge-done-text); }
 .badge-completed::before { background: var(--badge-done-text); }
 
 /* ============================================================

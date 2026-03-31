@@ -75,7 +75,7 @@ export function TaskList() {
   }
 
   const getBadgeClass = (status) => {
-    if (status === 'Completed')  return 'badge badge-completed'
+    if (status === 'Completed')   return 'badge badge-completed'
     if (status === 'In Progress') return 'badge badge-in-progress'
     return 'badge badge-pending'
   }
